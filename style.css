@@ -55,3 +55,42 @@ input {
 #equal {
     height: 95%;
 }
+
+@media (max-width: 450px) {
+    .container {
+        width: 300px;
+        height: 300px;
+    }
+
+    .item1 {
+        margin: 5px auto 0;  
+    }
+
+    .item2, .item3 {
+        margin: 0 auto 5px;
+    }
+
+    input {
+        width: 250px;
+        height: 40px;
+    }
+
+    #addition, #subtraction, #multiplication, #division {
+        margin: 5px;
+        width: 50px;
+        height: 30px;
+    }
+
+    .item3-inner1 {
+        margin-right: 5px;
+    }
+
+    .item3-inner1-1, .item3-inner1-2, .item3-inner1-3, .item3-inner1-4 {
+        margin-bottom: 5px;
+    }
+
+    #seven, #eight, #nine, #four, #five, #six, #one, #two, #three, #zero, #dot, #delete {
+        width: 60px;
+        height: 30px;
+    }
+}
